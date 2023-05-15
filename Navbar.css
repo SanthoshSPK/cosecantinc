@@ -1,0 +1,132 @@
+.cosecant_logo {
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.clr1 ul, .clr1 li{
+    margin: 0%;
+    padding: 10px 10px;
+    position: relative;
+    
+}
+.clr1 ul{
+    list-style: none;
+  
+}
+
+.clr1 li{
+    float: left;
+    position: relative;
+    width: auto;
+}
+.clr1 a{
+    
+    display: block;
+    font-size: 13px;
+    text-align: left;
+}
+.clr1 ul li a:hover  {
+    color: rgb(230, 93, 35);
+    display: block;
+    }
+.clr1 ul li a{
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+
+/* underline clor*/
+.clr1 a:after{
+    content: "";
+    position: absolute;
+    width:30%;
+    height: 0.15rem;
+    left: 10px;
+    bottom: 0;
+    background: #fa6502;
+}
+ .clr1 a::after{
+ transform: scale(0,1);
+
+
+}
+ .clr1 a:hover::after{
+    transform: scale(1,1);
+   
+}
+/*dropdown*/
+.submenu {
+    display: none;
+    margin: 10px;
+    position: relative;
+    left: 0;
+    width: 200px;
+}
+.submenu  li{
+    width: 150px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    transition: 1s;
+}
+.clr1 ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    left: -10px;
+    top: 105%;
+    background-color: var(--color-black);
+
+}
+
+/* side line clor*/
+.submenu a:after{
+    content: "";
+    position: absolute;
+    width: 0.175rem;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: #fa6502;
+
+}
+.submenu  ul li a::after{
+ transform: scale(0,1);
+}
+.submenu  ul li a:hover::after{
+    transform: scale(1,1);
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
